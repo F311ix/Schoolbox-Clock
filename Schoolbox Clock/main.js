@@ -75,7 +75,7 @@ if (window.location.pathname === "/" && collum) {
         const frame = document.createElement("iframe");
         frame.src = "about:blank";
         frame.width = "100%";
-        frame.height = "250";
+        frame.height = "264";
 
         // Add frame to page
         container.appendChild(h2);
@@ -131,6 +131,7 @@ if (window.location.pathname === "/" && collum) {
         progressBar.style.width = '100%';
         progressBar.style.height = '25px';
         progressBar.style.border = '3px solid #303030'; // 'solid' is the border style, 'black' is the border color
+        progressBar.style.borderRadius = '5px';
         iframeDocument.body.appendChild(progressBar);
 
         progress = iframeDocument.createElement('div');
