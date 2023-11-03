@@ -7,4 +7,6 @@ Unlike the extension that I've based this off, mine doesn't access a pre-made go
 
 More updates to come and currently only works with a couple of schoolbox based websites due to limitations. I've licensed this under the MIT licensing, allowing others to contribute and apply their inputs to create a better product. Thanks for looking and let me know if you have any issues.
 
+
+
 ![UI](https://github.com/F311ix/Schoolbox-Clock/assets/97383177/67f6cd3d-fed0-4c85-84a1-c3951eead86c)
