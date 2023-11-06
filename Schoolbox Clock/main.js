@@ -1,6 +1,7 @@
 const collum = document.querySelector(".small-12.large-4.columns");
 
 
+
 function getPeriodLength(periodTime) {
     const startTimeStr = periodTime.split("–")[0];
     const endTimeStr = periodTime.split("–")[1];
@@ -145,8 +146,16 @@ if (window.location.pathname === "/" && collum) {
         timetableElements = document.getElementsByClassName("timetable-subject-active");
 
         if (timetableElements.length > 0) {
-            const peroidInfoText = document.getElementsByClassName("timetable-period-active")[0].innerText;
-            period = timetableElements[0].innerText.split("\n")[0];
+            let peroidInfoText;
+            if (timetableElements.length > 2) {
+                peroidInfoText = document.getElementsByClassName("timetable-period-active")[1].innerText;
+                period = timetableElements[1].innerText.split("\n")[0];
+            }
+            else {
+                    peroidInfoText = document.getElementsByClassName("timetable-period-active")[0].innerText;
+                    period = timetableElements[0].innerText.split("\n")[0];
+            }
+
             periodNumber = peroidInfoText.split("\n")[0];
             periodTime = peroidInfoText.split("\n")[1];
 
