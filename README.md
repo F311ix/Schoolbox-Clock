@@ -8,7 +8,7 @@ More updates to come and currently only works with a couple of schoolbox based w
 # How to Install
 Currently it costs $5 usd to become a chrome developer to upload extensions to the chrome store. I don't really feel like paying $5 usd on my school account, so until then you'll have to follow this way.
 
-Download the file by pressing the green code button at the top right of the page and press 'Download ZIP'. Unpack the ZIP when it's downloaded and go to this URL 'chrome://extensions/', enable Dev mode at the top right of the screen and you should see an option at the top left of your screen to 'Load Unpacked'. Click this button and upload the folder called 'Schoolbox Clock'. It should load and then its good.
+Download the file by pressing the green code button at the top right of the page and press 'Download ZIP'. Unpack the ZIP when it's downloaded and go to this URL 'chrome://extensions/', enable Dev mode at the top right of the screen and you should see an option at the top left of your screen to 'Load Unpacked'. Click this button and upload the folder inside the folder you downloaded called 'Schoolbox Clock'. It should load and then its good.
 
 
 ![UI](https://github.com/F311ix/Schoolbox-Clock/assets/97383177/67f6cd3d-fed0-4c85-84a1-c3951eead86c)
