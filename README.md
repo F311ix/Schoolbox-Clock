@@ -6,10 +6,10 @@ Unlike the extension that I've based this off, mine doesn't access a premade goo
 More updates to come and currently only works with a couple of schoolbox based websites due to limitations. I've licensed this under the MIT licensing, allowing others to contribute and apply their inputs to create a better product. Thanks for looking and let me know if you have any issues.
 
 # How to Install
-- Download the file by pressing the green code button at the top right of the page and press 'Download ZIP'.
-- Unpack the ZIP when it's downloaded and go to this URL 'chrome://extensions/', enable Dev mode at the top right of the screen and you should see an option at the top left of your screen to 'Load Unpacked'.
+- Download the file by pressing the **green code button** at the top right of the page and press '**Download ZIP**'.
+- Unpack the ZIP when it's downloaded and go to this URL **chrome://extensions/**, enable Dev mode at the top right of the screen and you should see an option at the top left of your screen to '**Load Unpacked**'.
 - Click this button and upload the folder **inside** the folder you downloaded called '**Schoolbox Clock**' (not the folder you downloaded called 'Schoolbox-Clock-main').
-- It should load and then its good.
+- It should load on the page, then reload the schoolbox page!
 
 
 ![UI](https://github.com/F311ix/Schoolbox-Clock/assets/97383177/67f6cd3d-fed0-4c85-84a1-c3951eead86c)
