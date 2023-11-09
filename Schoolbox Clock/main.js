@@ -68,7 +68,7 @@ if (window.location.pathname === "/" && column) {
         const frame = document.createElement("iframe");
         frame.src = "about:blank";
         frame.width = "100%";
-        frame.height = "256";
+        frame.height = "264";
 
         // Add frame to page
         container.appendChild(h2);
@@ -94,6 +94,13 @@ if (window.location.pathname === "/" && column) {
                 font-size: 20px;
                 color: #303030;
             }
+
+            h3 {
+                font-family: Roboto, sans-serif;
+                font-size: 10px;
+                color: #909090;
+                font-weight: normal;
+            }
         `;
 
         iframeDocument.head.appendChild(style);
@@ -108,7 +115,7 @@ if (window.location.pathname === "/" && column) {
         iframeDocument.body.appendChild(periodTextElement);
 
         periodInfoElement = iframeDocument.createElement("p");
-        periodInfoElement.style.width = '98%';
+        periodInfoElement.style.width = '90%';
         iframeDocument.body.appendChild(periodInfoElement);
 
         // Add progress bar element
@@ -126,6 +133,11 @@ if (window.location.pathname === "/" && column) {
         progress.style.height = '100%';
         progress.style.backgroundColor = '#353535';
         progressBar.appendChild(progress);
+
+        // Add credits
+        creditElement = iframeDocument.createElement("h3");
+        creditElement.innerHTML = "Made by Felix S";
+        iframeDocument.body.appendChild(creditElement);
     }
 
 
