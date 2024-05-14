@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Schoolbox Clock",
+  "description": "A simple little clock to help manage your day, in mintues and seconds!",
+  "version": "1.2.1",
+  "permissions": ["activeTab"],
+  "icons": {
+    "124": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://schoolbox.christscollege.com/*",
+        "https://schoolbox.emmanu4el.qld.edu.au/*"
+      ],
+      "js": ["main.js"]
+    }
+  ]
+}
